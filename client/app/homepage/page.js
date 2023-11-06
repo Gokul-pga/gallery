@@ -5,9 +5,7 @@ import Modalpage from "./modalpage/page";
 import { gallery } from "@/src/envfile/api";
 import { Bellefair } from "next/font/google";
 import { AiFillDelete, AiOutlineDownload, AiOutlineStar } from "react-icons/ai";
-import ResNav from "./resnav/page";
 import { Toaster, toast } from "react-hot-toast";
-import ImgModal from "./imgmodal/page";
 
 const inter = Bellefair({
   weight: "400",

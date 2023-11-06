@@ -10,7 +10,7 @@ const gallery = require("./routes/gallery.js");
 const signup = require("./routes/signup.js");
 const login = require("./routes/login.js");
 
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT ;
 const MONGOURL = process.env.MONGODB;
 
 app.listen(PORT, () => {
